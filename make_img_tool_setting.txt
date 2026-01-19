@@ -1,0 +1,13 @@
+mode:pro
+use:MBR
+use:VBR
+set_binary:0
+MBR_file:D:\motikomi\OS-v2\BIOSBoot\MBR.bin
+partitin_num:1
+set_binary:512
+VBR_file:D:\motikomi\OS-v2\BIOSBoot\fs_folder\FAT32.bin
+select_offset:1
+offset:0x0c
+size:4
+endian:l
+num:1000
